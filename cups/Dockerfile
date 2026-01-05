@@ -21,7 +21,8 @@ RUN \
         ghostscript \
         libjpeg-turbo \
         net-snmp \
-        epson-inkjet-printer-escpr
+        epson-inkjet-printer-escpr \
+        printer-driver-brlaser
 
 # Copy data
 COPY rootfs /
